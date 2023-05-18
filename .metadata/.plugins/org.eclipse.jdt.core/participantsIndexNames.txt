@@ -1,0 +1,13 @@
+INDEX VERSION 1.127
+D:\leejaeho\java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3072192398.index
+\aaaa\src
+D:\leejaeho\java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2792360601.index
+\pro02\src
+D:\leejaeho\java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3514251791.index
+\pro03\src
+D:\leejaeho\java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4165570268.index
+\123123\src
+D:\leejaeho\java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3658359147.index
+\ch01\src
+D:\leejaeho\java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1269627254.index
+\asdf\src

@@ -1,0 +1,5 @@
+package kr.go.util;
+
+public class WordFilter {
+
+}

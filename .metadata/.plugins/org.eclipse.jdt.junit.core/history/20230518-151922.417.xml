@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="JSONTest2" project="pro03" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="kr.go.test.JSONTest2" time="0.448">
+    <testcase name="test" classname="kr.go.test.JSONTest2" time="0.448"/>
+  </testsuite>
+</testrun>
