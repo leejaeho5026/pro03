@@ -13,9 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.myshop.dto.Notice;
 import com.myshop.model.NoticeDAO;
 
-/**
- * Servlet implementation class UpdateNoticeCtrl
- */
+
 @WebServlet("/UpdateNotice.do")
 public class UpdateNoticeCtrl extends HttpServlet {
 	private static final long serialVersionUID = 1L;

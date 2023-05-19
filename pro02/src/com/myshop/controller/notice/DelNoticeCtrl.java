@@ -19,11 +19,11 @@ public class DelNoticeCtrl extends HttpServlet {
 		NoticeDAO ndao = new NoticeDAO();
 		
 		int cnt = ndao.deleteNotice(idx);
-		if(cnt==0){ //실패하면, 공지사항 글 상세보기로 다시 이동
+		if(cnt==0){ 
 			String msg = "공지사항 글을 삭제하지 못했습니다.";
 			request.setAttribute("msg", msg);
 			response.sendRedirect("GetNotice.do?idx="+idx);
-		} else { //삭제 처리가 성공하면, 공지사항 목록으로 이동
+		} else { 
 			response.sendRedirect("NoticeList.do");
 		}
 	}
