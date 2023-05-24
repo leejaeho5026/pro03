@@ -58,5 +58,14 @@ background-repeat:no-repeat; background-position:left center; background-size:10
 
 #star_btn { width:100px; height:36px; position:absolute; z-index:20; top:0; left:0;  }
 #star_btn label { display:block; width:10px; height:36px; position:relative; float:left; }
+
+.term_wrap { margin: 0 auto; height:1280px; margin:60px; }
+.term1 { margin: 0 auto; width:720px; height:480px; }
+
+.single { margin-right: 15px; }
+
+.mainImg { width:100%; height:auto; max-width:none; padding:0; margin:0;}
+
 </style>
 <script src="https://code.jquery.com/jquery-latest.js"></script>
+<script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>

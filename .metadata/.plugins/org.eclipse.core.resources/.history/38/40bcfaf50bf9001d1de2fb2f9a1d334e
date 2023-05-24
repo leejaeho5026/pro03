@@ -1,0 +1,5 @@
+package kr.go.dto;
+
+public class Notice {
+
+}

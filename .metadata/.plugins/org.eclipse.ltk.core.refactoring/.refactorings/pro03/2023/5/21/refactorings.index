@@ -4,3 +4,25 @@
 1684743295540	Delete element
 1684743650348	Delete element
 1684744966720	Rename resource 'im'
+1684806355649	Rename type 'board'
+1684810155003	Rename type 'UserLoginCtrl'
+1684812534505	Delete element
+1684812571728	Delete element
+1684812674255	Delete element
+1684812945817	Delete element
+1684812982806	Rename type 'UserLoginProCtrl'
+1684816366194	Delete element
+1684816368817	Delete element
+1684816371888	Delete element
+1684818307160	Delete element
+1684821943071	Move 'loro.JPG' to 'WebContent'
+1684822334528	Move 'loro.JPG' to 'images'
+1684904444811	Delete element
+1684905561004	Delete element
+1684912379911	Delete element
+1684912381562	Delete element
+1684912382836	Delete element
+1684918169125	Rename type 'InsertNoticeCtrl'
+1684918733345	Rename type 'GetNoticeCtrl'
+1684919021342	Rename type 'NoticeGetCtrl'
+1684919742195	Rename type 'NoticeInsertCtrl'

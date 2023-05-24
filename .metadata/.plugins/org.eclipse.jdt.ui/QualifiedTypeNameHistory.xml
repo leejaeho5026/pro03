@@ -2,17 +2,24 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="com.myshop.model.Jang1DAO"/>
 <fullyQualifiedTypeName name="com.myshop.vo.BasketVO"/>
-<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
 <fullyQualifiedTypeName name="com.myshop.dto.JANG1"/>
 <fullyQualifiedTypeName name="org.apache.tomcat.jni.User"/>
 <fullyQualifiedTypeName name="com.myshop.dto.User1"/>
 <fullyQualifiedTypeName name="com.myshop.dto.T1"/>
-<fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="net.sf.json.JSONArray"/>
 <fullyQualifiedTypeName name="org.json.JSONArray"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
-<fullyQualifiedTypeName name="java.io.PrintWriter"/>
-<fullyQualifiedTypeName name="org.json.JSONObject"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.json.JSONObject"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="kr.go.model.UserDAO"/>
+<fullyQualifiedTypeName name="com.crypto.util.AES256"/>
 </qualifiedTypeNameHistroy>
