@@ -58,6 +58,12 @@ public class Notice {
 	public void setVisited(int visited) {
 		this.visited = visited;
 	}
+	@Override
+	public String toString() {
+		return "Notice [no=" + no + ", title=" + title + ", content=" + content
+				+ ", regdate=" + regdate + ", visited=" + visited + ", file1="
+				+ file1 + ", editdate=" + editdate + "]";
+	}
 	
 	
 	

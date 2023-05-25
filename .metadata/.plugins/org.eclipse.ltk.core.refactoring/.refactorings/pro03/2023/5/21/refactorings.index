@@ -26,3 +26,8 @@
 1684918733345	Rename type 'GetNoticeCtrl'
 1684919021342	Rename type 'NoticeGetCtrl'
 1684919742195	Rename type 'NoticeInsertCtrl'
+1684977748342	Delete element
+1684978869558	Move 'InsertNotice.jsp' to 'notice'
+1684978987815	Rename type 'InsertNoticeCtrl'
+1684979238268	Delete element
+1684993660551	Move 'Getnotice.jsp' to 'notice'

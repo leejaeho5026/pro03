@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import kr.go.gangneung.model.NoticeDAO;
 
-@WebServlet("/DelNoticeCtrl.do")
+@WebServlet("/DelNotice.do")
 public class DelNoticeCtrl extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
