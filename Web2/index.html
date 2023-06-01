@@ -1,0 +1,224 @@
+
+
+
+  
+
+<!DOCTYPE html>
+<html>
+<head>
+
+
+  
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- 문서 정보 등록 -->
+<!-- 검색엔진최적화(Search Engine Optimization) : SEO -->
+<meta name="subject" content="재호 쇼핑몰">
+<meta name="keywords" content="더조은 책방, 교과서, 자격증 서적, 기술 서적, 참고 서적, 소설, 시, 작품집, 만화, 잡지">
+<meta name="description" content="더조은 책방은 교과서, 자격증 서적, 기술 서적, 참고 서적, 소설, 시, 작품집, 만화, 잡지">
+<meta name="author" content="mr. kim">
+
+<!-- 파비콘(favicon) 설정 -->
+<link rel="shortcut icon" href="/pro02/img/favicon.ico">
+
+<!-- https://okgunyang.github.io/web1 -->
+<!-- 오픈그래프 설정 -->
+<meta name="og:site_name" content="더조은책">
+<meta name="og:title" content="더조은책방">
+<meta name="og:description" content="더조은 책방은 교과서, 자격증 서적, 기술 서적, 참고 서적, 소설, 시, 작품집, 만화, 잡지 등을 판매합니다.">
+<meta name="og:url" content="https://www.myshop.com">
+<meta name="og:image" content="/pro02/img/thumbnail.jpg">  
+      
+<!-- 기본 폰트 및 초기화 로딩 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+<!-- 스타일 초기화 -->
+<!-- reset.css나 normalize.css를 CDN 또는 다운로드 받아 link로 연결 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+<!-- 합쳐지고 최소화된 최신 CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+<!-- 부가적인 테마 -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<style>
+/* 마우스 롤 오버시 스타일 */
+.dropdown-toggle::after { transition: transform 0.15s linear;}
+.show.dropdown .dropdown-toggle::after {transform: translateY(3px);}
+.dropdown-menu {margin-top: 0;} /* hover 메뉴때문에 넣음 */
+</style>
+<script>
+/* 마우스 롤 오버시 스크립트 */
+$(document).ready(function(){
+	var $dropdown = $(".navbar-nav .dropdown");
+	var $dropdownToggle = $(".dropdown-toggle");
+	var $dropdownMenu = $(".dropdown-menu");
+	var showClass = "show";
+	$(window).on("load resize", function() {
+		if (this.matchMedia("(min-width: 768px)").matches) {
+			$dropdown.hover(
+				function() {
+					var $this = $(this);
+					$this.addClass(showClass);
+					$this.find($dropdownToggle).attr("aria-expanded", "true");
+					$this.find($dropdownMenu).addClass(showClass);
+				},
+				function() {
+					var $this = $(this);
+					$this.removeClass(showClass);
+					$this.find($dropdownToggle).attr("aria-expanded", "false");
+					$this.find($dropdownMenu).removeClass(showClass);
+				}
+			);
+		} else {
+			$dropdown.off("mouseenter mouseleave");
+		}
+	});
+});
+</script>
+<title>메인 페이지</title>
+<style>
+.container-fluid { width:1280px; }
+</style>
+</head>
+<body>
+
+
+  
+
+<header id="hd" class="container">
+	<div class="container-fluid">
+		<nav id="tnb" class="navbar navbar-default">
+			<ul class="nav navbar-nav navbar-right" style="padding-right:40px">
+				
+				
+                <li><a href="Login.html">로그인</a></li>
+                <li><a href="Terms.html">회원가입</a></li>
+                <li><a href="MyPage.html">마이페이지</a></li>
+                <li><a href="/pro02/MyBasket.do?id=admin">장바구니</a></li>
+                <li><a href="/pro02/MySalesList.do?id=admin">구매내역</a></li>
+                <li><a href="Logout.html">로그아웃</a></li>
+				
+			</ul>
+		</nav>
+	</div>
+	<div class="container-fluid">	
+		<nav class="navbar navbar-default" style="padding-right:30px;">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="/pro02">MYSHOP</a>
+		    </div>
+		
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav" data-toggle="tab-hover" role="tablist">
+		        <li class="active"><a href="/pro02/ShopIntro.html">재호 쇼핑몰<span class="sr-only">(current)</span></a></li>
+		        <li class="dropdown">
+		          <a href="/pro02/ProductList.do?cate=01" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">운동화<span class="caret"></span></a>
+		          <ul class="dropdown-menu" role="menu">
+		            <li><a href="sub.html">남자운동화</a></li>
+		            <li><a href="/pro02/ProductList.do?cate=0102">여자운동화</a></li>
+		            <li><a href="/pro02/ProductList.do?cate=0103">공용운동화</a></li>
+		            <li><a href="/pro02/ProductList.do?cate=0104">아동운동화</a></li>
+		          </ul>
+		        </li>
+		        <li class="dropdown">
+		          <a href="/pro02/ProductList.do?cate=02" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">슬리퍼 <span class="caret"></span></a>
+		          <ul class="dropdown-menu" role="menu">
+		            <li><a href="/pro02/ProductList.do?cate=0201">남자슬리퍼</a></li>
+		            <li><a href="/pro02/ProductList.do?cate=0202">여자슬리퍼</a></li>
+		            <li><a href="/pro02/ProductList.do?cate=0203">공용슬리퍼</a></li>
+		            <li><a href="/pro02/ProductList.do?cate=0204">아동슬리퍼</a></li>
+		          </ul>
+		        </li>
+		        <li class="dropdown">
+		          <a href="/pro02/ProductList.do?cate=03" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">구두 <span class="caret"></span></a>
+		          <ul class="dropdown-menu" role="menu">
+		            <li><a href="/pro02/ProductList.do?cate=0301">남자구두</a></li>
+		            <li><a href="/pro02/ProductList.do?cate=0302">여자구두</a></li>
+		            <li><a href="/pro02/ProductList.do?cate=0303">공용구두</a></li>
+		            <li><a href="/pro02/ProductList.do?cate=0304">아동구두</a></li>
+		          </ul>
+		        </li>
+     		    <li class="dropdown">
+     		    	<a href="/pro02/NoticeList.do"class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">커뮤니티 <span class="caret"></span></a>
+			        <ul class="dropdown-menu" role="menu">
+			            <li><a href="NoticeList.html">공지사항</a></li>
+			            <li><a href="FaqList.html">자주하는 질문</a></li>
+			            <li><a href="QnaList.html">묻고 답하기</a></li>
+			            <li class="divider"></li>
+			            <li><a href="ReviewList.html">이용후기</a></li>
+			            <li><a href="DataList.html">자료실</a></li>
+			        </ul>
+     		    </li>
+		      </ul>
+		      
+		      
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="MemberList.html">회원 관리</a></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">상품/판매 관리 <span class="caret"></span></a>
+		          <ul class="dropdown-menu" role="menu">
+		            <li><a href="AdminCategoryList.html">카테고리 관리</a></li>
+		            <li><a href="AdminProductList.html">상품 관리</a></li>
+		            <li><a href="AdminSalesList.html">판매 관리</a></li>
+		            <li><a href="AdminInventoryList.html">재고 관리</a></li>
+		            <li class="divider"></li>
+		            <li><a href="AdminBasketList.html">장바구니 관리</a></li>
+		           	<li><a href="Survey.html">배송 관리</a></li>
+		            <li><a href="AdminPayList.html">결제 관리</a></li>
+		          </ul>
+		        </li>
+		        <li class="dropdown" style="padding-right:30px; margin-right:30px;">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">글 관리 <span class="caret"></span></a>
+		          <ul class="dropdown-menu" role="menu">
+		            <li><a href="AdminNoticeList.html">공지사항 관리</a></li>
+		            <li><a href="AdminReviewList.html">이용후기 관리</a></li>
+		            <li><a href="AdminQnaList.html">질문 및 답변 관리</a></li>
+		            <li class="divider"></li>
+		            <li><a href="AdminFaqList.html">자주하는 질문 관리</a></li>
+		            <li><a href="AdminDataList.html">자료실 관리</a></li>
+		          </ul>
+		        </li>
+		      </ul>
+		      
+		    </div>
+		  </div>
+		</nav>
+	</div>
+</header>
+
+<div class="content" style="padding-top:30px; margin-top:30px; border-top:3px solid #333; min-height:500px; ">
+	<section class="page">
+		<div class="container-fluid">
+			<h2 class="title">메인 페이지 콘텐츠</h2>
+            <figure class="vs">
+                <div class="img_box">
+                    <video src="/pro02/movie/YNA.mp4" muted autoplay loop></video>
+                </div>
+            </figure>
+		</div>
+	</section>
+</div>
+
+<footer class="ft" style="min-height:100px; border-top:3px solid #333; margin-top:30px; padding-top:30px;">
+  <div class="container-fluid ft_wrap">
+	<p style="font-weight:bold;">Copyright © 2023 THEJOEUN BOOK. All Rights Reserved.</p>
+  </div>
+</footer>
+</body>
+</html>

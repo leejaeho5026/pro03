@@ -56,10 +56,10 @@
 		<item value="10" key="LimitValue"/>
 	</section>
 	<section name="ClasspathContainerSelectionPage">
-		<item value="4" key="index"/>
+		<item value="7" key="index"/>
 	</section>
 	<section name="BuildPathsPropertyPage">
-		<item value="2" key="pageIndex"/>
+		<item value="0" key="pageIndex"/>
 	</section>
 	<section name="quick_assist_proposal_size">
 	</section>

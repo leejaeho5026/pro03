@@ -20,14 +20,14 @@
 <fullyQualifiedTypeName name="kr.go.model.UserDAO"/>
 <fullyQualifiedTypeName name="com.crypto.util.AES256"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
 <fullyQualifiedTypeName name="kr.go.gangneung.model.NoticeDAO"/>
-<fullyQualifiedTypeName name="kr.go.gangneung.dto.Notice"/>
 <fullyQualifiedTypeName name="com.oreilly.servlet.MultipartRequest"/>
 <fullyQualifiedTypeName name="com.oreilly.servlet.multipart.DefaultFileRenamePolicy"/>
 <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
-<fullyQualifiedTypeName name="java.net.URLEncoder"/>
 <fullyQualifiedTypeName name="kr.go.gangneung.model.UserDAO"/>
 <fullyQualifiedTypeName name="kr.go.gangneung.dto.User"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="java.net.URLEncoder"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
+<fullyQualifiedTypeName name="kr.go.gangneung.dto.Notice"/>
 </qualifiedTypeNameHistroy>

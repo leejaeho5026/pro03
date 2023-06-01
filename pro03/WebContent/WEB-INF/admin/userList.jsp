@@ -7,6 +7,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<jsp:include page="/head.jsp" />
 <meta charset="UTF-8">
 <title>ADMIN - 회원 관리</title>
 <style>

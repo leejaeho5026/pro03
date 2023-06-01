@@ -1,0 +1,5 @@
+package kr.go.gangneung.controller;
+
+public class Board {
+
+}

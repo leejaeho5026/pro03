@@ -13,7 +13,7 @@ public class Main extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String author = "손승기";
+		String author = "이재호";
 		
 		//홈 디렉토리 잡기
 		ServletContext application = request.getServletContext();

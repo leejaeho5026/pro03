@@ -35,13 +35,6 @@ public class NoticeInsertProCtrl extends HttpServlet {
 		
 		int cnt = dao.noticeUpdate(notice);
 
-		
-		
-		
-	
-
-		
-	
 			
 			RequestDispatcher view = request.getRequestDispatcher("/WEB-INF/notice/insertNotice.jsp");
 			view.forward(request, response);

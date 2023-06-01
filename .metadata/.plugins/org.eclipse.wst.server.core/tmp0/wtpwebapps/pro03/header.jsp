@@ -15,7 +15,7 @@
 		    	<div class="navbar-start" id="gnb" style="font-size:18px;">
 		    	<!-- ajax로 메뉴 로딩하여 추가하기 -->
 				<div class="navbar-item has-dropdown is-hoverable single" style="margin-left: 95px;">
-			    	<a class="navbar-link" href="${path2 }/BoardA01.do?cate=a01">
+			    	<a class="navbar-link" href="${path2 }/sub1.do">
 				      	테마여행
 				    </a>
 					<div class="navbar-dropdown single">

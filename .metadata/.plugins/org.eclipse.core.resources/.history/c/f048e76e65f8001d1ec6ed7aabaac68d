@@ -1,5 +1,0 @@
-package kr.go.model;
-
-public interface NoticeDAO {
-
-}

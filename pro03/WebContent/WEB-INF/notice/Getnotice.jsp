@@ -16,18 +16,44 @@
 <body>
   <jsp:include page="/header.jsp" />
   
-  <h1 class="title">공지사항 상세보기</h1>
-		<table class="table" id="tb1">
-		  <thead>
+
+
+    <div class="container">
+      <h1 class="title">공지사항 상세보기</h1>
+		<table class="table">
+		   <tbody>
 		    <tr>
-		      <th>No</th>
-		      <th>제목</th>
-		      <th>내용</th>
-		      <th>가입일</th>
-		      <th>방문횟수</th>
-		      <th>파일</th>
+		      <th>번호</th>
+		      <td>${notice.no }</td>
 		    </tr>
-		  </thead>
-  	</table>
+		    <tr>
+		      <th>제목</th>
+		      <td>${notice.title }</td>
+		    </tr>
+		    <tr>
+		      <th>내용</th>
+		      <td><p>${notice.content }</p></td>
+		    </tr>
+		    <tr> 
+		      <th>작성일</th>
+		      <td>
+		      	<fmt:parseDate value="${regDate }" var="regdate" pattern="yyyy-MM-dd HH:mm:ss" />
+		      	<fmt:formatDate value="${regdate }" pattern="yyyy-MM-dd" />
+		      </td>
+		    </tr>
+		    <tr>
+		      <th>읽은 횟수</th>
+		      <td><p>${notice.visited }</p></td>
+		    </tr>
+		  </tbody>
+		</table>
+		<div class="buttons">
+		  <a href="${path1 }/NoticeList.do" class="button is-info">목록</a>
+		  <c:if test='${sid.equals("admin") }'>
+			  <a href="${path1 }/DelNotice.do?no=${dto.no }" class="button is-danger">글 삭제</a>
+			  <a href="${path1 }/NoticeUpdatePro.do?no=${dto.no }" class="button is-warning">글 수정</a>
+		  </c:if>
+		</div>
+    </div>
 </body>
 </html>
